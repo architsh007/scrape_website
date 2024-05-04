@@ -2,6 +2,7 @@ import httpx
 from selectolax.parser import HTMLParser
 import time
 
+
 def get_response(url):
     """
         This functions get repsonse from the given url outputs wheather site accessible or not by following code of status 
@@ -20,6 +21,7 @@ def get_response(url):
 
     return response
 
+
 def prase_page(response):
     """
         prase the response form the website
@@ -27,12 +29,37 @@ def prase_page(response):
     html = HTMLParser(response.text)
     return html
 
+
 def select_products(html):
+    """
+        Select all the products that are listed on the page
+    """
     products = html.css("li.VcGDfKKy_dvNbxUqm29K")
     return products
 
-def product_name(product):
-    print(product.css_first(".Xpx0MUGhB7jSm5UvK2EY").text())
+
+def extract_text(selector):
+    """
+        extract the text from the css selector and returns text from it otherwise returns None
+    """
+    try:
+        return selector
+    except AttributeError:
+        return None
+
+
+def product_details(product):
+    """
+        extract deatils of the products from the results and prints the result
+    """
+    item = {
+        "Brand" : extract_text(product.css_first("span[data-ui=product-brand]").text()),
+        "Name of product" : extract_text(product.css_first("span[data-ui=product-title]").text()),
+        "Sale price" : extract_text(product.css_first("span[data-ui=sale-price]").text()),
+        "Full price" : extract_text(product.css_first("span[data-ui=full-price]").text())
+    }
+    return item
+
 
 def main():
     base_url = "https://www.rei.com"
@@ -43,7 +70,7 @@ def main():
     products = select_products(html)
     
     for product in products:
-        product_name(product)
+        print(extract_text(product_details(product)))
 
 
 if __name__ == "__main__":
