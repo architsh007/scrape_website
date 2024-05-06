@@ -86,15 +86,17 @@ def main():
     next_url = next_page(html)
     counter = 1
 
-    while next_url is not None:
-        next_url = next_page(html)
+    while True:
         products = select_products(html)        
         print("\nGathering product information on page", counter)    
         for product in products:
             print(product_details(product))
+        next_url = next_page(html)
+        if next_url is None:
+            break
         html = prase_page(get_response(next_url))
         counter += 1
-    
+
 
 if __name__ == "__main__":
     main()
