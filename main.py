@@ -1,3 +1,5 @@
+## This program will scrape product details of all the men's clothing deals present on the deals page of
+
 import httpx
 from selectolax.parser import HTMLParser
 import time
@@ -50,6 +52,9 @@ def extract_text(selector):
 
 
 def extract_full_price(product):
+    """
+        Their are different types of prices are available on site search for full price related item on the product page
+    """
     if extract_text(product.css_first("span[data-ui=full-price]")) is not None:
         return extract_text(product.css_first("span[data-ui=full-price]"))
     else:
@@ -70,6 +75,9 @@ def product_details(product):
 
 
 def next_page(html):
+    """
+        this function serach for next page link in current page
+    """
     if html.css_first("a[data-id=pagination-test-link-next]") == None:
         print("This is the last page")
         exit()
