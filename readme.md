@@ -1,6 +1,10 @@
-My Learning of the web scraping through using of httpx and selectolax instead of requests and beautifulsoup becaause various advantages in using those libraries such httpx supports latest html5 and selectolax is works on CPython which very fast as compared to beautifulsoup.
+My learning of web scraping was done using httpx and selectolax instead of requests and beautifulsoup because there are several benefits to utilizing those libraries, such as httpx supporting the latest HTML5 and selectolax working on CPython, which is much faster than beautifulsoup.
 
-Following programs will scrape the product data of mens clothing deals from the rei.com. 
 
-view_product_details.py : This python program will show the all product details that are available on the website that is used for scraping
-scrape_product_details.py : This python will scrape all the details of the products from page such as brand of product, name, sale price, full price , ratings, number of reviews and link of the product from the website into json format in that file.
+The following programs will scrape the product data for men's apparel offers from rei.com. 
+
+view_product_details.py:            This python program will show all of the product details that are available on the scraping website.
+The file scrape_product_details.py: This Python script will extract all the product information on the page, including the product's name, brand, sale price, full price, ratings, quantity of 
+                                    reviews, and website link, into a JSON file.
+
+** scrape_website: This directory contains all of the necessary libraries needed to run applications in a virtual environment in Python.
