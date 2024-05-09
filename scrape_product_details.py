@@ -64,13 +64,19 @@ def next_page(html):
         return urljoin("https://www.rei.com/c/mens-clothing/f/scd-deals", html.css_first("a[data-id=pagination-test-link-next]").attributes["href"]) 
 
 
-def dump_details_json(details):
+def dump_details_json(details, filename):
     try:
-        with open('output.json', 'w') as f:
-            json.dump(details, f, sort_keys=True, indent=4)
-    except json.JSONDecodeError:
-        print("Got error while accessing json file")
-        exit()
+        with open(filename, 'r') as f:
+            existing_data = json.load(f)
+    except (json.JSONDecodeError, FileNotFoundError):
+        print("Got error while accessing json file and creating new file")
+        existing_data = []
+
+    existing_data.append(details)
+
+    with open(filename, 'w') as f:
+        json.dump(existing_data, f, indent=4)
+        
 
 
 def main():
@@ -79,7 +85,6 @@ def main():
     html = prase_page(get_response(url_to_scrape))
     next_url = next_page(html)
     counter = 1
-    product_details = []
 
     while True:
         products = select_products(html)        
@@ -99,8 +104,7 @@ def main():
                 "Product url": urljoin("https://www.rei.com/c/mens-clothing/f/scd-deals", product.attributes['href'])
             }
             print(product_data)
-            product_details.append(product_data)
-            dump_details_json(product_details)
+            dump_details_json(product_data, "product_details.json")
             
             
         next_url = next_page(html)
@@ -110,7 +114,6 @@ def main():
         time.sleep(3)
         counter += 1
     
-    dump_details_json(product_details)
     
     
 

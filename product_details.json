@@ -1,0 +1,380 @@
+[
+    {
+        "Brand": "Patagonia",
+        "Product Name": "P-6 Logo Trucker Hat",
+        "Sale Price": " $18.83",
+        "Full Price": " $39.00",
+        "Rating": "4.9",
+        "Number of reviews": "50",
+        "Product url": "https://www.rei.com/product/201177/patagonia-p-6-logo-trucker-hat"
+    },
+    {
+        "Brand": "Patagonia",
+        "Product Name": "Lightweight Synchilla Snap-T Fleece Pullover - Men's",
+        "Sale Price": " $68.83",
+        "Full Price": " $139.00",
+        "Rating": "4.4",
+        "Number of reviews": "47",
+        "Product url": "https://www.rei.com/product/208955/patagonia-lightweight-synchilla-snap-t-fleece-pullover-mens"
+    },
+    {
+        "Brand": "Vuori",
+        "Product Name": "Kore Shorts - Men's 7.5\" Inseam",
+        "Sale Price": " $68.00",
+        "Full Price": null,
+        "Rating": "4.6",
+        "Number of reviews": "294",
+        "Product url": "https://www.rei.com/product/145576/vuori-kore-shorts-mens-75-inseam"
+    },
+    {
+        "Brand": "Arc'teryx",
+        "Product Name": "Delta Hybrid Hoodie - Men's",
+        "Sale Price": " $139.93",
+        "Full Price": " $200.00",
+        "Rating": "4.7",
+        "Number of reviews": "21",
+        "Product url": "https://www.rei.com/product/223381/arcteryx-delta-hybrid-hoodie-mens"
+    },
+    {
+        "Brand": "Outdoor Afro + REI Co-op",
+        "Product Name": "Trail Shorts - Men's",
+        "Sale Price": " $20.83",
+        "Full Price": " $69.95",
+        "Rating": "4.4",
+        "Number of reviews": "50",
+        "Product url": "https://www.rei.com/product/209589/outdoor-afro-rei-co-op-trail-shorts-mens"
+    },
+    {
+        "Brand": "REI Co-op",
+        "Product Name": "Trailmade Pants - Men's",
+        "Sale Price": " $69.95",
+        "Full Price": null,
+        "Rating": "4.5",
+        "Number of reviews": "244",
+        "Product url": "https://www.rei.com/product/216255/rei-co-op-trailmade-pants-mens"
+    },
+    {
+        "Brand": "Columbia",
+        "Product Name": "Helvetia Fleece Hoodie - Men's",
+        "Sale Price": " $44.83",
+        "Full Price": " $90.00",
+        "Rating": "4.4",
+        "Number of reviews": "14",
+        "Product url": "https://www.rei.com/product/210570/columbia-helvetia-fleece-hoodie-mens"
+    },
+    {
+        "Brand": "Patagonia",
+        "Product Name": "Multi Trails Shorts 8\" - Men's",
+        "Sale Price": " $79.00",
+        "Full Price": null,
+        "Rating": "4.3",
+        "Number of reviews": "49",
+        "Product url": "https://www.rei.com/product/216979/patagonia-multi-trails-shorts-8-mens"
+    },
+    {
+        "Brand": "REI Co-op",
+        "Product Name": "Hyperaxis Fleece Jacket 2.0 - Men's",
+        "Sale Price": " $58.83",
+        "Full Price": " $149.00",
+        "Rating": "4.5",
+        "Number of reviews": "185",
+        "Product url": "https://www.rei.com/product/166946/rei-co-op-hyperaxis-fleece-jacket-20-mens"
+    },
+    {
+        "Brand": "Patagonia",
+        "Product Name": "Brodeo Beanie",
+        "Sale Price": " $23.83",
+        "Full Price": " $49.00",
+        "Rating": "4.3",
+        "Number of reviews": "43",
+        "Product url": "https://www.rei.com/product/136748/patagonia-brodeo-beanie"
+    },
+    {
+        "Brand": "REI Co-op",
+        "Product Name": "Trailmade Amphib Shorts - Men's",
+        "Sale Price": " $49.95",
+        "Full Price": null,
+        "Rating": "4.0",
+        "Number of reviews": "94",
+        "Product url": "https://www.rei.com/product/216313/rei-co-op-trailmade-amphib-shorts-mens"
+    },
+    {
+        "Brand": "REI Co-op",
+        "Product Name": "Swiftland Running Joggers - Men's",
+        "Sale Price": " $79.95",
+        "Full Price": null,
+        "Rating": "4.1",
+        "Number of reviews": "38",
+        "Product url": "https://www.rei.com/product/216204/rei-co-op-swiftland-running-joggers-mens"
+    },
+    {
+        "Brand": "Smartwool",
+        "Product Name": "Outdoor Light Cushion Ankle Socks",
+        "Sale Price": " $15.73",
+        "Full Price": " $20.00",
+        "Rating": "5.0",
+        "Number of reviews": "12",
+        "Product url": "https://www.rei.com/product/232877/smartwool-outdoor-light-cushion-ankle-socks"
+    },
+    {
+        "Brand": "Cotopaxi",
+        "Product Name": "Do Good Crew Sweatshirt - Men's",
+        "Sale Price": " $31.83",
+        "Full Price": " $65.00",
+        "Rating": "4.5",
+        "Number of reviews": "29",
+        "Product url": "https://www.rei.com/product/203295/cotopaxi-do-good-crew-sweatshirt-mens"
+    },
+    {
+        "Brand": "Patagonia",
+        "Product Name": "Capilene Cool Daily Graphic Long-Sleeve Shirt - Men's",
+        "Sale Price": " $65.00",
+        "Full Price": null,
+        "Rating": "4.8",
+        "Number of reviews": "122",
+        "Product url": "https://www.rei.com/product/143463/patagonia-capilene-cool-daily-graphic-long-sleeve-shirt-mens"
+    },
+    {
+        "Brand": "Patagonia",
+        "Product Name": "Capilene Cool Lightweight Long-Sleeve Shirt - Men's",
+        "Sale Price": " $40.93",
+        "Full Price": " $59.00",
+        "Rating": "4.2",
+        "Number of reviews": "18",
+        "Product url": "https://www.rei.com/product/143465/patagonia-capilene-cool-lightweight-long-sleeve-shirt-mens"
+    },
+    {
+        "Brand": "The North Face",
+        "Product Name": "86 Retro Mountain Jacket - Men's",
+        "Sale Price": " $260.00",
+        "Full Price": null,
+        "Rating": "4.6",
+        "Number of reviews": "52",
+        "Product url": "https://www.rei.com/product/218079/the-north-face-86-retro-mountain-jacket-mens"
+    },
+    {
+        "Brand": "The North Face",
+        "Product Name": "Alta Vista Jacket - Men's",
+        "Sale Price": " $140.00",
+        "Full Price": null,
+        "Rating": "4.4",
+        "Number of reviews": "297",
+        "Product url": "https://www.rei.com/product/200917/the-north-face-alta-vista-jacket-mens"
+    },
+    {
+        "Brand": "Patagonia",
+        "Product Name": "Down Sweater - Men's",
+        "Sale Price": " $279.00",
+        "Full Price": null,
+        "Rating": "4.4",
+        "Number of reviews": "129",
+        "Product url": "https://www.rei.com/product/208592/patagonia-down-sweater-mens"
+    },
+    {
+        "Brand": "Smartwool",
+        "Product Name": "Merino Plant-Based Dye T-Shirt - Men's",
+        "Sale Price": " $59.73",
+        "Full Price": " $80.00",
+        "Rating": "4.6",
+        "Number of reviews": "23",
+        "Product url": "https://www.rei.com/product/233082/smartwool-merino-plant-based-dye-t-shirt-mens"
+    },
+    {
+        "Brand": "REI Co-op",
+        "Product Name": "1938 Graphic T-Shirt",
+        "Sale Price": " $19.93",
+        "Full Price": " $34.95",
+        "Rating": "4.8",
+        "Number of reviews": "34",
+        "Product url": "https://www.rei.com/product/219273/rei-co-op-1938-graphic-t-shirt"
+    },
+    {
+        "Brand": "Obermeyer",
+        "Product Name": "Force Snow Pants - Men's",
+        "Sale Price": " $90.83",
+        "Full Price": " $229.00",
+        "Rating": "4.5",
+        "Number of reviews": "2",
+        "Product url": "https://www.rei.com/product/223439/obermeyer-force-snow-pants-mens"
+    },
+    {
+        "Brand": "REI Co-op",
+        "Product Name": "Norseland Merino Wool Crew Socks",
+        "Sale Price": " $9.73",
+        "Full Price": " $12.95",
+        "Rating": "0.0",
+        "Number of reviews": "0",
+        "Product url": "https://www.rei.com/product/240485/rei-co-op-norseland-merino-wool-crew-socks"
+    },
+    {
+        "Brand": "Arc'teryx",
+        "Product Name": "Beta LT Jacket - Men's",
+        "Sale Price": " $360.93",
+        "Full Price": " $450.00",
+        "Rating": "4.6",
+        "Number of reviews": "400",
+        "Product url": "https://www.rei.com/product/185629/arcteryx-beta-lt-jacket-mens"
+    },
+    {
+        "Brand": "REI Co-op",
+        "Product Name": "Chunky Waffle Beanie",
+        "Sale Price": " $8.83",
+        "Full Price": " $17.95",
+        "Rating": "4.5",
+        "Number of reviews": "11",
+        "Product url": "https://www.rei.com/product/209941/rei-co-op-chunky-waffle-beanie"
+    },
+    {
+        "Brand": "Arc'teryx",
+        "Product Name": "Alpha Jacket - Men's",
+        "Sale Price": " $559.73",
+        "Full Price": " $700.00",
+        "Rating": "0.0",
+        "Number of reviews": "0",
+        "Product url": "https://www.rei.com/product/241261/arcteryx-alpha-jacket-mens"
+    },
+    {
+        "Brand": "Arc'teryx",
+        "Product Name": "Sabre Insulated Jacket - Men's",
+        "Sale Price": " $679.93",
+        "Full Price": " $850.00",
+        "Rating": "4.4",
+        "Number of reviews": "14",
+        "Product url": "https://www.rei.com/product/222710/arcteryx-sabre-insulated-jacket-mens"
+    },
+    {
+        "Brand": "The North Face",
+        "Product Name": "ThermoBall Eco Snow Triclimate 3-in-1 Jacket - Men's",
+        "Sale Price": " $159.83",
+        "Full Price": " $400.00",
+        "Rating": "4.4",
+        "Number of reviews": "59",
+        "Product url": "https://www.rei.com/product/223044/the-north-face-thermoball-eco-snow-triclimate-3-in-1-jacket-mens"
+    },
+    {
+        "Brand": "Icebreaker",
+        "Product Name": "Multisport Light Mini Socks - Men's",
+        "Sale Price": " $14.73",
+        "Full Price": null,
+        "Rating": "4.8",
+        "Number of reviews": "107",
+        "Product url": "https://www.rei.com/product/183303/icebreaker-multisport-light-mini-socks-mens"
+    },
+    {
+        "Brand": "REI Co-op",
+        "Product Name": "First Chair GTX ePE Jacket - Men's",
+        "Sale Price": " $126.83",
+        "Full Price": " $319.00",
+        "Rating": "4.5",
+        "Number of reviews": "35",
+        "Product url": "https://www.rei.com/product/221812/rei-co-op-first-chair-gtx-epe-jacket-mens"
+    },
+    {
+        "Brand": "KUHL",
+        "Product Name": "Renegade Shorts - Men's 10\" Inseam",
+        "Sale Price": " $59.93",
+        "Full Price": " $79.00",
+        "Rating": "4.6",
+        "Number of reviews": "230",
+        "Product url": "https://www.rei.com/product/111538/kuhl-renegade-shorts-mens-10-inseam"
+    },
+    {
+        "Brand": "adidas",
+        "Product Name": "Terrex Xperior Hybrid Primeknit RAIN.RDY Jacket - Men's",
+        "Sale Price": " $139.83",
+        "Full Price": " $280.00",
+        "Rating": "4.4",
+        "Number of reviews": "30",
+        "Product url": "https://www.rei.com/product/217494/adidas-terrex-xperior-hybrid-primeknit-rainrdy-jacket-mens"
+    },
+    {
+        "Brand": "Columbia",
+        "Product Name": "Bugaboo 1986 Interchange 3-in-1 Jacket - Men's",
+        "Sale Price": " $99.83",
+        "Full Price": " $200.00",
+        "Rating": "4.6",
+        "Number of reviews": "92",
+        "Product url": "https://www.rei.com/product/223241/columbia-bugaboo-1986-interchange-3-in-1-jacket-mens"
+    },
+    {
+        "Brand": "Fjallraven",
+        "Product Name": "Expedition Down Jacket - Men's",
+        "Sale Price": " $374.83",
+        "Full Price": " $750.00",
+        "Rating": "4.6",
+        "Number of reviews": "17",
+        "Product url": "https://www.rei.com/product/176546/fjallraven-expedition-down-jacket-mens"
+    },
+    {
+        "Brand": "Outdoor Afro + REI Co-op",
+        "Product Name": "Shell Jacket - Men's",
+        "Sale Price": " $83.83",
+        "Full Price": " $169.00",
+        "Rating": "4.6",
+        "Number of reviews": "49",
+        "Product url": "https://www.rei.com/product/209645/outdoor-afro-rei-co-op-shell-jacket-mens"
+    },
+    {
+        "Brand": "Flylow",
+        "Product Name": "Chemical Snow Pants - Men's",
+        "Sale Price": " $181.83",
+        "Full Price": " $365.00",
+        "Rating": "3.9",
+        "Number of reviews": "8",
+        "Product url": "https://www.rei.com/product/156339/flylow-chemical-snow-pants-mens"
+    },
+    {
+        "Brand": "Arc'teryx",
+        "Product Name": "Cormac Arc'Word Long-Sleeve Shirt - Men's",
+        "Sale Price": " $63.93",
+        "Full Price": " $80.00",
+        "Rating": "4.2",
+        "Number of reviews": "6",
+        "Product url": "https://www.rei.com/product/223382/arcteryx-cormac-arcword-long-sleeve-shirt-mens"
+    },
+    {
+        "Brand": "Obermeyer",
+        "Product Name": "Ridgeline Insulated Jacket with Faux Fur - Men's",
+        "Sale Price": " $158.83",
+        "Full Price": " $399.00",
+        "Rating": "3.7",
+        "Number of reviews": "3",
+        "Product url": "https://www.rei.com/product/210794/obermeyer-ridgeline-insulated-jacket-with-faux-fur-mens"
+    },
+    {
+        "Brand": "Black Diamond",
+        "Product Name": "Guide Gloves",
+        "Sale Price": " $125.93",
+        "Full Price": " $179.95",
+        "Rating": "4.2",
+        "Number of reviews": "219",
+        "Product url": "https://www.rei.com/product/888316/black-diamond-guide-gloves"
+    },
+    {
+        "Brand": "Fjallraven",
+        "Product Name": "Nuuk Lite Insulated Parka - Men's",
+        "Sale Price": " $224.83",
+        "Full Price": " $450.00",
+        "Rating": "0.0",
+        "Number of reviews": "0",
+        "Product url": "https://www.rei.com/product/221496/fjallraven-nuuk-lite-insulated-parka-mens"
+    },
+    {
+        "Brand": "Picture Organic Clothing",
+        "Product Name": "Stone Jacket - Men's",
+        "Sale Price": " $153.83",
+        "Full Price": " $385.00",
+        "Rating": "0.0",
+        "Number of reviews": "0",
+        "Product url": "https://www.rei.com/product/224308/picture-organic-clothing-stone-jacket-mens"
+    },
+    {
+        "Brand": "Arc'teryx",
+        "Product Name": "Atom Insulated Hoodie - Men's",
+        "Sale Price": " $300.00",
+        "Full Price": null,
+        "Rating": "4.5",
+        "Number of reviews": "222",
+        "Product url": "https://www.rei.com/product/222632/arcteryx-atom-insulated-hoodie-mens"
+    }
+]
