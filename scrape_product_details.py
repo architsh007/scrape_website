@@ -64,20 +64,29 @@ def next_page(html):
         return urljoin("https://www.rei.com/c/mens-clothing/f/scd-deals", html.css_first("a[data-id=pagination-test-link-next]").attributes["href"]) 
 
 
+def dump_details_json(details):
+    try:
+        with open('output.json', 'w') as f:
+            json.dump(details, f, sort_keys=True, indent=4)
+    except json.JSONDecodeError:
+        print("Got error while accessing json file")
+        exit()
+
 
 def main():
-    base_url = "https://www.rei.com"
     url_to_scrape = "https://www.rei.com/c/mens-clothing/f/scd-deals"
     
     html = prase_page(get_response(url_to_scrape))
     next_url = next_page(html)
     counter = 1
+    product_details = []
 
     while True:
         products = select_products(html)        
         print("\nGathering product information on page\n\n", counter)
         for product in products:
-            print(urljoin("https://www.rei.com/c/mens-clothing/f/scd-deals", product.attributes['href']), end="\n\n")
+            time.sleep(2)
+            print("\n",urljoin("https://www.rei.com/c/mens-clothing/f/scd-deals", product.attributes['href']))
             product_resp = httpx.get(urljoin("https://www.rei.com/c/mens-clothing/f/scd-deals", product.attributes['href']), headers=header, follow_redirects=True)
             product_html = HTMLParser(product_resp.text)
             product_data = {
@@ -90,14 +99,20 @@ def main():
                 "Product url": urljoin("https://www.rei.com/c/mens-clothing/f/scd-deals", product.attributes['href'])
             }
             print(product_data)
-            with open('output.json', 'w') as f:
-                json.dump(product_data, f)
+            product_details.append(product_data)
+            dump_details_json(product_details)
+            
+            
         next_url = next_page(html)
         if next_url is None:
             break
         html = prase_page(get_response(next_url))
-        time.sleep(2)
+        time.sleep(3)
         counter += 1
+    
+    dump_details_json(product_details)
+    
+    
 
 
 if __name__ == "__main__":
