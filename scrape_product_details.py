@@ -4,6 +4,7 @@ import httpx
 from selectolax.parser import HTMLParser
 import time
 from urllib.parse import urljoin
+import json
 
 
 header = {
@@ -74,10 +75,9 @@ def main():
 
     while True:
         products = select_products(html)        
-        print("\nGathering product information on page", counter)
+        print("\nGathering product information on page\n\n", counter)
         for product in products:
-            print(product.attributes.keys())
-            print(urljoin("https://www.rei.com/c/mens-clothing/f/scd-deals", product.attributes['href']))
+            print(urljoin("https://www.rei.com/c/mens-clothing/f/scd-deals", product.attributes['href']), end="\n\n")
             product_resp = httpx.get(urljoin("https://www.rei.com/c/mens-clothing/f/scd-deals", product.attributes['href']), headers=header, follow_redirects=True)
             product_html = HTMLParser(product_resp.text)
             product_data = {
@@ -90,6 +90,8 @@ def main():
                 "Product url": urljoin("https://www.rei.com/c/mens-clothing/f/scd-deals", product.attributes['href'])
             }
             print(product_data)
+            with open('output.json', 'w') as f:
+                json.dump(product_data, f)
         next_url = next_page(html)
         if next_url is None:
             break
