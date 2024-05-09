@@ -376,5 +376,41 @@
         "Rating": "4.5",
         "Number of reviews": "222",
         "Product url": "https://www.rei.com/product/222632/arcteryx-atom-insulated-hoodie-mens"
+    },
+    {
+        "Brand": "Flylow",
+        "Product Name": "Baker Bib Insulated Snow Pants - Men's",
+        "Sale Price": " $214.83",
+        "Full Price": " $430.00",
+        "Rating": "0.0",
+        "Number of reviews": "0",
+        "Product url": "https://www.rei.com/product/223424/flylow-baker-bib-insulated-snow-pants-mens"
+    },
+    {
+        "Brand": "Picture Organic Clothing",
+        "Product Name": "Welcome 3L Bib Pants - Men's",
+        "Sale Price": " $153.83",
+        "Full Price": " $385.00",
+        "Rating": "0.0",
+        "Number of reviews": "0",
+        "Product url": "https://www.rei.com/product/224325/picture-organic-clothing-welcome-3l-bib-pants-mens"
+    },
+    {
+        "Brand": "686",
+        "Product Name": "Smarty 3-in-1 Cargo Snow Pants - Men's",
+        "Sale Price": " $137.83",
+        "Full Price": " $229.95",
+        "Rating": "4.3",
+        "Number of reviews": "26",
+        "Product url": "https://www.rei.com/product/136187/686-smarty-3-in-1-cargo-snow-pants-mens"
+    },
+    {
+        "Brand": "Picture Organic Clothing",
+        "Product Name": "Lhotse Base Layer Pants - Men's",
+        "Sale Price": " $39.83",
+        "Full Price": " $80.00",
+        "Rating": "5.0",
+        "Number of reviews": "1",
+        "Product url": "https://www.rei.com/product/193969/picture-organic-clothing-lhotse-base-layer-pants-mens"
     }
 ]
